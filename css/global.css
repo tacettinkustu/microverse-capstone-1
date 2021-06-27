@@ -4,6 +4,24 @@
   text-align: center;
 }
 
+@font-face {
+  /* Cocogoose Light */
+  font-family: "cocogoose-light";
+  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Light-trial.ttf");
+
+  /* Cocogoose Regular */
+  font-family: "cocogoose-regular";
+  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Regular-trial.ttf");
+
+  /* Cocogoose Bold */
+  font-family: "cocogoose-bold";
+  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Bold-trial.ttf");
+
+  /* Cocogoose Extra-Bold */
+  font-family: "cocogoose-extra-bold";
+  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-ExtraBold-trial.ttf");
+}
+
 .heading-small {
   font-size: 1.25rem;
 }
@@ -64,3 +82,7 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Buttons, primary, hover */
+
+/* Forms */
