@@ -6,5 +6,5 @@ function closeNav() {
   document.getElementById('myNav').style.width = '0%';
 }
 
-openNav()
-closeNav()
+openNav();
+closeNav();
