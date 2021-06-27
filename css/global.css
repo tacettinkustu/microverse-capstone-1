@@ -1,0 +1,66 @@
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+
+.heading-small {
+  font-size: 1.25rem;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+}
+
+.heading-big {
+  font-size: 1.75rem;
+}
+
+/* Text Colors */
+
+.light-black {
+  color: #272a31;
+}
+
+.dark-orange {
+  color: #ec5242;
+}
+
+.light-grey {
+  color: #d3d3d3;
+}
+
+/* Background Colors */
+
+.bg-light-black {
+  background: #272a31;
+}
+
+.bg-dark-orange {
+  background: #ec5242;
+}
+
+.bg-light-grey {
+  background: #d3d3d3;
+}
+
+/* Container */
+
+.container {
+  max-width: 1400px;
+}
+
+/* Layouts */
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
