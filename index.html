@@ -31,8 +31,45 @@
     <link rel="stylesheet" media="(min-width:768px)" href="css/desktop.css" />
   </head>
 
-  <body>
-    <h1 class="dark-orange">COCOGOOSE</h1>
-    <i class="fa fa-pencil-alt"></i>
+  <body class="flex-column-center">
+    <header class="bg-light-grey flex-column-center">
+      <nav>
+        <div class="bg-nav-image"></div>
+        <div class="light-black" onclick="openNav()"></div>
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="myNav" class="overlay bg-light-black">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Program</a>
+            <a href="#">Join</a>
+            <a href="#">Sponsors</a>
+            <a href="#">News</a>
+          </div>
+        </div>
+        <h2 class="dark-orange text-center">"Hello! Sharing world"</h2>
+      </nav>
+      <div class="container">
+        <img src="./utils/images/—Pngtree—line decorative design pattern_3634817.png" alt="Background image" class="bg-header-image">
+        <div>
+          <h1 class="dark-orange text-center">
+            YTU ENTREPRENEURSHIP and TECHNOLOGY CONFERENCE
+          </h1>
+          <div class="header-content text-center">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
+              illo! Rem cupiditate nemo minima voluptate laboriosam deserunt,
+              dignissimos quia incidunt id pariatur odit laborum sunt
+              reprehenderit labore blanditiis temporibus modi.
+            </p>
+          </div>
+        </div>
+        <div class="info"></div>
+      </div>
+    </header>
   </body>
+  <script src="app.js"></script>
 </html>

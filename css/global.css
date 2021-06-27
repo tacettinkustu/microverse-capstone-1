@@ -5,21 +5,15 @@
 }
 
 @font-face {
+  /* Cocogoose Bold */
+  font-family: "cocogoose";
+  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
+}
+
+@font-face {
   /* Cocogoose Light */
   font-family: "cocogoose-light";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Light-trial.ttf");
-
-  /* Cocogoose Regular */
-  font-family: "cocogoose-regular";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Regular-trial.ttf");
-
-  /* Cocogoose Bold */
-  font-family: "cocogoose-bold";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Bold-trial.ttf");
-
-  /* Cocogoose Extra-Bold */
-  font-family: "cocogoose-extra-bold";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-ExtraBold-trial.ttf");
+  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
 }
 
 .heading-small {
@@ -59,13 +53,13 @@
 }
 
 .bg-light-grey {
-  background: #d3d3d3;
+  background: rgba(250, 247, 247, 0.829);
 }
 
 /* Container */
-
 .container {
-  max-width: 1400px;
+  width: 100%;
+  padding: 5%;
 }
 
 /* Layouts */
