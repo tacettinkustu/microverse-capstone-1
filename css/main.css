@@ -105,12 +105,14 @@ nav h2 {
 /* First Section */
 header div {
   position: relative;
+  padding-top: 5%;
 }
 
 .container h1 {
   font-family: "cocogoose", sans-serif;
+  font-size: 1.85rem;
   letter-spacing: 1.5px;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .header-content {
@@ -128,4 +130,9 @@ header div {
   left: 0;
   background-size: contain;
   overflow-x: hidden;
+}
+
+/* First Section Info */
+.infos {
+  margin: 10% 0;
 }
