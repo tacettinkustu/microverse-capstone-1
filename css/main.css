@@ -31,7 +31,7 @@ header nav {
 }
 
 nav h2 {
-  font-family: "cocogoose-light";
+  font-family: "cocogoose-light", sans-serif;
   letter-spacing: 1.5px;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -108,7 +108,7 @@ header div {
 }
 
 .container h1 {
-  font-family: "cocogoose";
+  font-family: "cocogoose", sans-serif;
   letter-spacing: 1.5px;
   margin-bottom: 10%;
 }
