@@ -20,13 +20,11 @@ const speakers = [
 
 const featuredSpeakers = document.querySelector('.speakers-list');
 
-
-
 function loadSpeakers() {
-  speakers.forEach((speaker,index) => {
-
+  speakers.forEach((speaker, index) => {
     const speakerContainer = document.createElement('article');
-    speakerContainer.className = index>=1?'flex-row-center':'flex-row-center speakers-display';
+    speakerContainer.className =
+      index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
     featuredSpeakers.appendChild(speakerContainer);
 
     const speakerImage = document.createElement('img');
