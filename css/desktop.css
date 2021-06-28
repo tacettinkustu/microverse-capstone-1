@@ -1,3 +1,7 @@
 html {
   max-width: 1400px;
 }
+
+.speakers-display {
+  display: block;
+}

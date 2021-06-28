@@ -20,16 +20,13 @@ const speakers = [
 
 const featuredSpeakers = document.querySelector('.speakers-list');
 
-eventListener();
 
-function eventListener() {
-  featuredSpeakers.addEventListener('DOMContentLoaded', loadSpeakers());
-}
 
-function loadSpeakers(e) {
-  speakers.forEach((speaker) => {
+function loadSpeakers() {
+  speakers.forEach((speaker,index) => {
+
     const speakerContainer = document.createElement('article');
-    speakerContainer.className = 'flex-row-center';
+    speakerContainer.className = index>=1?'flex-row-center':'flex-row-center speakers-display';
     featuredSpeakers.appendChild(speakerContainer);
 
     const speakerImage = document.createElement('img');
@@ -58,6 +55,11 @@ function loadSpeakers(e) {
     speakerInfos.appendChild(speakerBackground);
   });
 }
+
+function eventListener() {
+  featuredSpeakers.addEventListener('DOMContentLoaded', loadSpeakers());
+}
+eventListener();
 
 function openNav() {
   document.getElementById('myNav').style.width = '100%';

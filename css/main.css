@@ -225,3 +225,7 @@ header div {
   color: #ec5242;
   margin: 0 5px;
 }
+
+.speakers-display {
+  display: none;
+}
