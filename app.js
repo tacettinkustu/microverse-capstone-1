@@ -27,8 +27,7 @@ const speakers = [
   },
   {
     id: 4,
-    image:
-      'https://i1.sndcdn.com/avatars-000099702312-agl30n-t500x500.jpg',
+    image: 'https://i1.sndcdn.com/avatars-000099702312-agl30n-t500x500.jpg',
     name: 'Mark Zuckerberg',
     organization: 'CEO of Facebook',
     background:
@@ -55,11 +54,12 @@ const speakers = [
 ];
 
 const featuredSpeakers = document.querySelector('.speakers-list');
+const speakersButton = document.querySelector('.speakers-btn');
 
 function loadSpeakers() {
   speakers.forEach((speaker, index) => {
     const speakerContainer = document.createElement('article');
-    speakerContainer.classList = index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
+    speakerContainer.className = index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
     featuredSpeakers.appendChild(speakerContainer);
 
     const speakerImage = document.createElement('img');
@@ -73,7 +73,7 @@ function loadSpeakers() {
     speakerContainer.appendChild(speakerInfos);
 
     const speakerName = document.createElement('h3');
-    speakerName.className = 'light-black heading-small';
+    speakerName.className = 'light-black heading-medium speaker-heading';
     speakerName.textContent = `${speaker.name}`;
     speakerInfos.appendChild(speakerName);
 
@@ -89,10 +89,32 @@ function loadSpeakers() {
   });
 }
 
-function eventListener() {
-  featuredSpeakers.addEventListener('DOMContentLoaded', loadSpeakers());
+function toggleSpeakers() {
+  const displayedItems = document.querySelectorAll('.speakers-display');
+  const toggledItems = document.querySelectorAll('.toggle');
+
+  if (toggledItems.length === 0) {
+    displayedItems.forEach((item) => {
+      item.className = 'flex-row-center toggle';
+    });
+    speakersButton.textContent = 'LESS';
+    const arrow = document.createElement('i');
+    arrow.className = 'fas fa-angle-up down-arrow';
+    speakersButton.appendChild(arrow);
+  }
+  if (toggledItems.length) {
+    toggledItems.forEach((item) => {
+      item.className = 'flex-row-center speakers-display';
+      speakersButton.textContent = 'MORE';
+      const arrow = document.createElement('i');
+      arrow.className = 'fas fa-angle-down down-arrow';
+      speakersButton.appendChild(arrow);
+    });
+  }
 }
-eventListener();
+
+featuredSpeakers.addEventListener('DOMContentLoaded', loadSpeakers());
+speakersButton.addEventListener('onclick', toggleSpeakers);
 
 function openNav() {
   document.getElementById('myNav').style.width = '100%';
