@@ -195,3 +195,33 @@ header div {
 .main-btn {
   margin: 5% 0;
 }
+
+/* Featured Speakers */
+.featured-speakers-header {
+  margin: 10% 0;
+}
+
+.speaker-image {
+  width: 27%;
+  margin: 3%;
+  border-radius: 100%;
+}
+
+.speaker-infos {
+  width: 67%;
+  margin: 3%;
+  margin-left: 0;
+}
+
+.speakers-btn {
+  width: 80%;
+  border: #272a31 solid 1px;
+  background-color: #fff;
+  color: #272a31;
+  margin: 5% 0;
+}
+
+.down-arrow {
+  color: #ec5242;
+  margin: 0 5px;
+}
