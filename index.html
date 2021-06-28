@@ -87,7 +87,9 @@
       </div>
     </header>
     <section class="main-program flex-column-center">
-      <h2 class="main-program-header light-grey">Main Program</h2>
+      <h2 class="main-program-header light-grey heading-medium">
+        Main Program
+      </h2>
       <article class="program-item flex-row-center bg-light-black">
         <div class="item item-icon heading-big">
           <i class="fas fa-book-reader light-grey"></i>
@@ -143,12 +145,98 @@
       </button>
     </section>
     <section class="featured-speakers flex-column-center">
-      <h2 class="featured-speakers-header light-black">Featured Speakers</h2>
+      <h2 class="featured-speakers-header light-black heading-medium">
+        Featured Speakers
+      </h2>
       <div class="speakers-list"></div>
-      <button type="button" name="join-us" class="btn speakers-btn" onclick="toggleSpeakers()">
-        MORE  <i class="fas fa-angle-down down-arrow"></i>
+      <button
+        type="button"
+        name="join-us"
+        class="btn speakers-btn"
+        onclick="toggleSpeakers()"
+      >
+        MORE <i class="fas fa-angle-down down-arrow"></i>
       </button>
     </section>
+    <section class="past-activities flex-column-center">
+      <h2 class="past-heading light-black heading-medium">
+        See the past Club Activities
+      </h2>
+      <p class="past-content light-black text-center">
+        Take a look at the last two years activities which took place in
+        Istanbul
+      </p>
+      <div class="past-first-activity">
+        <div class="first-activity-content flex-column-center">
+          <h3>2020</h3>
+          <p>YTU Technology Summit 2020 in Istanbul</p>
+        </div>
+      </div>
+      <div class="past-second-activity">
+        <div class="first-activity-content flex-column-center">
+          <h3>2019</h3>
+          <p>YTU Technology Summit 2019 in Istanbul</p>
+        </div>
+      </div>
+    </section>
+    <section class="partners bg-light-black flex-column-center">
+      <h2 class="partners-heading light-grey heading-medium">Partners</h2>
+      <ul class="partners-list flex-row-center">
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/firefox.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/google-g-2015.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/facebook-3.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/tesla-motors.svg"
+            alt="mozilla"
+          />
+        </li>
+        <li class="list-item-container mozilla">
+          <img
+            class="list-item"
+            src="./utils/images/amazon-lightsail.svg"
+            alt="mozilla"
+          />
+        </li>
+      </ul>
+    </section>
+    <footer class="footer flex-column-center">
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <div class="flex-row-center contact-details">
+        <img
+          src="./utils/images/ytu-logo-eng.jpg"
+          alt="yildiz technical university logo"
+          class="ytu-logo"
+        />
+        <div class="adress">
+          <p class="phone-number">Phone: +90(535)2906493</p>
+          <p class="adress-details">
+            Davutpasa Mah. <br />
+            Davutpasa Caddesi<br />
+            34220 Esenler- Istanbul
+          </p>
+        </div>
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
