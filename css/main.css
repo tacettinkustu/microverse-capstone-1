@@ -202,7 +202,8 @@ header div {
 }
 
 .speaker-image {
-  width: 27%;
+  width: 150px;
+  height: 150px;
   margin: 3%;
   border-radius: 100%;
 }

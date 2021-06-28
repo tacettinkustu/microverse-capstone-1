@@ -16,6 +16,42 @@ const speakers = [
     background:
       'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
   },
+  {
+    id: 3,
+    image:
+      'https://www.ortakdurak.com/wp-content/uploads/2021/06/Jeff-Bezos.png',
+    name: 'Jeff Bezos',
+    organization: 'CEO of Amazon',
+    background:
+      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+  },
+  {
+    id: 4,
+    image:
+      'https://i1.sndcdn.com/avatars-000099702312-agl30n-t500x500.jpg',
+    name: 'Mark Zuckerberg',
+    organization: 'CEO of Facebook',
+    background:
+      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+  },
+  {
+    id: 5,
+    image:
+      'https://eshop.macsales.com/blog/wp-content/uploads/2015/03/TimCookTwitter.jpg',
+    name: 'Tim Cook',
+    organization: 'CEO of Apple',
+    background:
+      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+  },
+  {
+    id: 6,
+    image:
+      'https://www.glusea.com/wp-content/uploads/2020/11/M-FEJMZ0_400x400.jpg',
+    name: 'Sunder Pichai',
+    organization: 'CEO of Google',
+    background:
+      'Lorem ipsum, dolor sit amet adipisicing elit. Deleniti, molestias.',
+  },
 ];
 
 const featuredSpeakers = document.querySelector('.speakers-list');
@@ -23,8 +59,7 @@ const featuredSpeakers = document.querySelector('.speakers-list');
 function loadSpeakers() {
   speakers.forEach((speaker, index) => {
     const speakerContainer = document.createElement('article');
-    speakerContainer.className =
-      index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
+    speakerContainer.classList = index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
     featuredSpeakers.appendChild(speakerContainer);
 
     const speakerImage = document.createElement('img');
