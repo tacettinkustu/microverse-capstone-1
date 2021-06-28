@@ -7,7 +7,7 @@ The website content is fictional. It was created using HTML, CSS and JavaScript 
 ![web](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/images/conference_page.png)
 
 
-It is built as a part of Microverse Web Developer Course
+It is built as a part of Microverse Web Developer Course. The mobile-first approach was used in this project.
 
 ## Built With
 
