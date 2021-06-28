@@ -17,6 +17,18 @@ a {
   text-decoration: none;
 }
 
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 header {
   width: 100%;
 }
@@ -49,7 +61,7 @@ nav h2 {
   background-image: url("../utils/images//—Pngtree—technology\ shading\ blue-violet\ gradient\ line_4060630.png");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 0.4;
   filter: blur(1px);
 }
 
@@ -129,10 +141,57 @@ header div {
   bottom: 0;
   left: 0;
   background-size: contain;
-  overflow-x: hidden;
+  opacity: 0.6;
+}
+
+.bg-header-image-rotate {
+  transform: rotate(180deg);
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+  background-size: contain;
+  opacity: 0.4;
 }
 
 /* First Section Info */
 .infos {
   margin: 10% 0;
+}
+
+/* Main Program */
+.main-program {
+  background: url("../utils/images/mosaic.png");
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  opacity: 0.9;
+}
+
+.main-program-header {
+  margin-bottom: 5%;
+}
+
+.program-item {
+  opacity: 0.7;
+  margin: 2% 0;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.item-icon {
+  width: 12%;
+}
+
+.item-header {
+  width: 28%;
+}
+
+.item-content {
+  width: 60%;
+}
+
+.main-btn {
+  margin: 5% 0;
 }
