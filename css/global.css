@@ -113,3 +113,20 @@
   opacity: 0.6;
   margin: 5% 0;
 }
+
+/* Margins */
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-top-big {
+  margin-top: 10%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0;
+}

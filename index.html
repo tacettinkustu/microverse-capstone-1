@@ -48,11 +48,11 @@
             >&times;</a
           >
           <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Program</a>
-            <a href="#">Join</a>
-            <a href="#">Sponsors</a>
-            <a href="#">News</a>
+            <a href="./about.html">About</a>
+            <a href="#main-program" onclick="closeNav()">Main Program</a>
+            <a href="#speakers" onclick="closeNav()">Speakers</a>
+            <a href="#partners" onclick="closeNav()">Partners</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
           </div>
         </div>
       </nav>
@@ -94,7 +94,7 @@
         </div>
       </div>
     </header>
-    <section class="main-program flex-column-center">
+    <section class="main-program flex-column-center" id="main-program">
       <h2 class="main-program-header light-grey heading-medium">
         Main Program
       </h2>
@@ -153,7 +153,7 @@
         Join the Program
       </button>
     </section>
-    <section class="featured-speakers flex-column-center">
+    <section class="featured-speakers flex-column-center" id="speakers">
       <h2 class="featured-speakers-header light-black heading-medium">
         Featured Speakers
       </h2>
@@ -169,59 +169,7 @@
       </button>
       <hr class="full-horizontal-line" />
     </section>
-    <section class="past-activities flex-column-center">
-      <h2 class="past-heading light-black heading-medium">
-        See the past Club Activities
-      </h2>
-      <hr class="horizontal-line text-center" />
-      <p class="past-content light-black text-center">
-        Take a look at the last two years activities which took place in
-        Istanbul
-      </p>
-      <div class="past-first-activity act">
-        <div class="first-activity-content flex-column-center">
-          <h3>2020</h3>
-          <p>YTU Technology Summit 2020 in Istanbul</p>
-        </div>
-      </div>
-      <div class="past-second-activity act">
-        <div class="first-activity-content flex-column-center">
-          <h3>2019</h3>
-          <p>YTU Technology Summit 2019 in Istanbul</p>
-        </div>
-      </div>
-      <hr class="full-horizontal-line" />
-    </section>
-    <section class="about-us flex-column-center text-center">
-      <h2 class="about-us-head light-black heading-medium">About Us</h2>
-      <hr class="horizontal-line text-center" />
-      <img
-        src="https://securityconference.org/assets/media/e/5/csm_themen_cyber-security-and-technology_header_compr_2037a5dc78.jpg"
-        alt="about us community photo"
-        class="family-photo"
-      />
-      <div class="about-us-content">
-        <p class="about-us-paragraph">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id mollitia
-          magni enim ducimus repudiandae assumenda fugit dolorum doloribus
-          ratione dolor cum, fugiat consequatur quisquam quos deserunt amet illo
-          recusandae distinctio incidunt tenetur veritatis facilis excepturi
-          eum. Consectetur repellendus sunt, dolorum exercitationem maiores
-          optio architecto voluptates deserunt quia nemo quod magni.
-        </p>
-        <h4>
-          <br />
-          What do we promise to entrepreneurs and technology enthusiasts?
-        </h4>
-        <p>
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa
-          ipsam explicabo eveniet iure reiciendis accusamus libero expedita ea
-          suscipit?
-        </p>
-      </div>
-    </section>
-    <section class="partners bg-light-black flex-column-center">
+    <section class="partners bg-light-black flex-column-center" id="partners">
       <h2 class="partners-heading light-grey heading-medium">Partners</h2>
       <hr class="horizontal-line text-center" />
       <ul class="partners-list flex-row-center">
@@ -262,7 +210,7 @@
         </li>
       </ul>
     </section>
-    <footer class="footer flex-column-center">
+    <footer class="footer flex-column-center" id="contact">
       <h3 class="contact light-black heading-medium">Contact</h3>
       <hr class="horizontal-line text-center" />
       <div class="flex-row-center contact-details">
