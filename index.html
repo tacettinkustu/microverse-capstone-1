@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="./utils/images/logo.png" type="image/png">
+    <link rel="shortcut icon" href="./utils/images/logo.png" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YTU Technology and Entrepreneurship Conference - 2021</title>
     <meta name="keywords" content="html, css, javascript" />
@@ -40,7 +40,7 @@
     <header class="bg-light-grey flex-column-center">
       <nav>
         <div class="nav-bg"></div>
-        <div class="light-black" onclick="openNav()">
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
           <i class="fas fa-bars hamburger-menu"></i>
         </div>
         <div id="myNav" class="overlay bg-light-black">
@@ -55,6 +55,24 @@
             <a href="#" onclick="closeNav()">Join the Program</a>
             <a href="#contact" onclick="closeNav()">Contact</a>
           </div>
+        </div>
+        <div class="desktop-navbar">
+          <a href="./index.html" class="main-logo"
+            ><img
+              src="./utils/images/logo.png"
+              alt="main logo"
+              class="main-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li><a href="./about.html" class="desktop-nav-link">About</a></li>
+            <li>
+              <a href="#main-program" class="desktop-nav-link">Main Program</a>
+            </li>
+            <li><a href="#speakers" class="desktop-nav-link">Speakers</a></li>
+            <li><a href="#partners" class="desktop-nav-link">Partners</a></li>
+            <li><a href="#" class="desktop-nav-link">Join the Program</a></li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
         </div>
       </nav>
       <div class="container">
@@ -100,59 +118,62 @@
         Main Program
       </h2>
       <hr class="horizontal-line text-center" />
-      <article class="program-item flex-row-center bg-light-black">
-        <div class="item item-icon heading-big">
-          <i class="fas fa-book-reader light-grey"></i>
-        </div>
-        <h3 class="item item-header dark-orange">Lecture</h3>
-        <p class="item item-content light-grey">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero
-          sit in necessitatibus, ad sequi?
-        </p>
-      </article>
-      <article class="program-item flex-row-center bg-light-black">
-        <div class="item item-icon heading-big">
-          <i class="fab fa-accusoft light-grey"></i>
-        </div>
-        <h3 class="item item-header dark-orange">Exhibition</h3>
-        <p class="item item-content light-grey">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero
-          sit in necessitatibus, ad sequi?
-        </p>
-      </article>
-      <article class="program-item flex-row-center bg-light-black">
-        <div class="item item-icon heading-big">
-          <i class="far fa-comments light-grey"></i>
-        </div>
-        <h3 class="item item-header dark-orange">Forum</h3>
-        <p class="item item-content light-grey">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero
-          sit in necessitatibus, ad sequi?
-        </p>
-      </article>
-      <article class="program-item flex-row-center bg-light-black">
-        <div class="item item-icon heading-big">
-          <i class="fas fa-code-branch light-grey"></i>
-        </div>
-        <h3 class="item item-header dark-orange">Workshop</h3>
-        <p class="item item-content light-grey">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero
-          sit in necessitatibus, ad sequi?
-        </p>
-      </article>
-      <article class="program-item flex-row-center bg-light-black">
-        <div class="item item-icon heading-big">
-          <i class="fas fa-chart-line light-grey"></i>
-        </div>
-        <h3 class="item item-header dark-orange">Ignite</h3>
-        <p class="item item-content light-grey">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit libero
-          sit in necessitatibus, ad sequi?
-        </p>
-      </article>
+      <div class="program-items">
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-book-reader light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Lecture</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fab fa-accusoft light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Exhibition</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="far fa-comments light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Forum</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-code-branch light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Workshop</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-chart-line light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Ignite</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+      </div>
       <button type="button" name="join-us" class="btn main-btn">
         Join the Program
       </button>
+      <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
     </section>
     <section class="featured-speakers flex-column-center" id="speakers">
       <h2 class="featured-speakers-header light-black heading-medium">
@@ -228,7 +249,7 @@
           </p>
         </div>
       </div>
-      <p><i class="far fa-copyright"></i>2021. All rights reserved</p>
+      <p class="rights"><i class="far fa-copyright"></i>2021. All rights reserved</p>
     </footer>
     <script src="app.js"></script>
   </body>

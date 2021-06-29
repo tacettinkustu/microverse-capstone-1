@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 button,
 input[type="submit"],
 input[type="reset"] {
@@ -113,6 +117,10 @@ nav h2 {
   font-size: 4rem;
 }
 
+.desktop-navbar {
+  display: none;
+}
+
 /* First Section */
 .container {
   width: 100%;
@@ -130,7 +138,7 @@ nav h2 {
 }
 
 .year {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 900;
   font-size: 2.1rem;
   margin-bottom: 15%;
@@ -187,6 +195,10 @@ nav h2 {
   opacity: 0.9;
 }
 
+.program-items {
+  
+}
+
 .program-item {
   opacity: 0.7;
   margin: 2% 0;
@@ -208,6 +220,10 @@ nav h2 {
 
 .main-btn {
   margin: 5% 0;
+}
+
+.see-program {
+  display: none;
 }
 
 /* Featured Speakers */
