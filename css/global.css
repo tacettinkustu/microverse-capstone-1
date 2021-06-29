@@ -32,6 +32,11 @@
 }
 
 /* Text Colors */
+.special-color {
+  background: -webkit-linear-gradient(rgb(224, 41, 41), rgb(90, 39, 39));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .light-black {
   color: #272a31;
