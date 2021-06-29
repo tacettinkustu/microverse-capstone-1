@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./utils/images/logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YTU Technology and Entrepreneurship Conference - 2021</title>
     <meta name="keywords" content="html, css, javascript" />
     <meta
@@ -36,12 +36,11 @@
     <!-- Desktop CSS -->
     <link rel="stylesheet" media="(min-width:768px)" href="css/desktop.css" />
   </head>
-
   <body class="flex-column-center">
     <header class="bg-light-grey flex-column-center">
       <nav>
         <div class="nav-bg"></div>
-        <div class="light-black" onclick="openNav()">
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
           <i class="fas fa-bars hamburger-menu"></i>
         </div>
         <div id="myNav" class="overlay bg-light-black">
@@ -49,10 +48,29 @@
             >&times;</a
           >
           <div class="overlay-content">
-            <a href="./index.html">Home</a>
-            <a href="#past-activities" onclick="closeNav()">Past Activities</a>
+            <a href="./about.html">About</a>
+            <a href="#main-program" onclick="closeNav()">Main Program</a>
+            <a href="#speakers" onclick="closeNav()">Speakers</a>
+            <a href="#partners" onclick="closeNav()">Partners</a>
+            <a href="#" onclick="closeNav()">Join the Program</a>
             <a href="#contact" onclick="closeNav()">Contact</a>
           </div>
+        </div>
+        <div class="desktop-navbar">
+          <a href="./index.html" class="main-logo"
+            ><img
+              src="./utils/images/logo.png"
+              alt="main logo"
+              class="main-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li><a href="./index.html" class="desktop-nav-link">Main Page</a></li>
+            <li>
+              <a href="#about-us" class="desktop-nav-link">About Us</a>
+            </li>
+            <li><a href="#past-activities" class="desktop-nav-link">Past Activities</a></li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
         </div>
       </nav>
       <div class="container">
@@ -67,7 +85,7 @@
           class="bg-header-image-rotate"
         />
         <div class="main-content">
-          <div class="text-center">
+          <div class="main-content-headers">
             <h2 class="dark-orange">"Hello! Sharing world"</h2>
             <h1 class="dark-orange">
               YTU ENTREPRENEURSHIP and TECHNOLOGY CONFERENCE
@@ -80,6 +98,14 @@
               illo! Rem cupiditate nemo minima voluptate laboriosam deserunt,
               dignissimos quia incidunt id pariatur odit laborum sunt
               reprehenderit labore blanditiis temporibus modi.
+            </p>
+          </div>
+          <div class="infos">
+            <p class="location light-black text-center">
+              <i
+                >Please Contact Us with Email for any further questions about
+                this activity!</i
+              ><br /><b>ytu2021@gmail.com</b>
             </p>
           </div>
         </div>

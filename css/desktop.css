@@ -60,6 +60,7 @@ nav {
 .main-logo-img {
   width: 50px;
   height: 50px;
+  opacity: 0.8;
 }
 
 /* First Section */
@@ -107,6 +108,10 @@ nav {
 
 .date {
   font-size: 2rem;
+}
+
+.location {
+  font-size: 1.25rem;
 }
 
 /* Main Program */
@@ -191,6 +196,10 @@ nav {
 }
 
 /* Contact */
+.footer {
+  margin-top: 0;
+}
+
 .contact-details {
   justify-content: center;
   margin: 0;
@@ -210,6 +219,48 @@ nav {
 
 .adress {
   margin-left: 3%;
+}
+
+/* About Us */
+.horizontal-line {
+  width: 200px;
+  margin-top: 1%;
+}
+.about-us {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.margin-top-big {
+  margin-top: 5%;
+}
+
+.family-photo {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.about-us-content {
+  font-size: 1.25rem;
+}
+
+/* Past Activities */
+.past-activities {
+  width: 100%;
+  margin: 0;
+}
+
+.past-content {
+  margin-top: 0;
+}
+
+.act {
+  width: 40%;
+}
+
+/* Contact */
+.contact-line {
+  margin-bottom: 2%;
 }
 
 /* toggle for speakers */
