@@ -1,7 +1,7 @@
 # Microverse HTML, CSS, JS Capstone Project
 "This website is an announcement for the upcoming entrepreneurship and technology conference. The conference will be held within Yıldız Technical University Technology Club. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets."
 
-The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project.
+The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project. In particular, I would like to point out that I built this website completely from scratch.
 
 
 ![web](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/images/conference_page.png)
