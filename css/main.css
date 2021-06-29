@@ -37,6 +37,11 @@ header {
   width: 100%;
 }
 
+/* Upperside */
+.upperside {
+  display: none;
+}
+
 /* Nav Menu */
 nav {
   width: 100%;
