@@ -93,3 +93,23 @@
 .btn:hover {
   opacity: 0.7;
 }
+
+/* Horizontal Line */
+.horizontal-line {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+.full-horizontal-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}

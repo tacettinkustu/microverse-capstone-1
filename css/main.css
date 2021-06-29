@@ -115,15 +115,20 @@ nav h2 {
 }
 
 /* First Section */
-header div {
-  position: relative;
-  padding-top: 5%;
+.main-content-headers h2 {
+  margin: 3% 0;
 }
 
 .container h1 {
   font-family: "cocogoose", sans-serif;
   font-size: 1.85rem;
   letter-spacing: 1.5px;
+}
+
+.year {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
   margin-bottom: 15%;
 }
 
@@ -132,6 +137,13 @@ header div {
   background-color: #fff;
   padding: 3%;
   line-height: 1.5rem;
+}
+
+.main-content-headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .bg-header-image {
@@ -169,10 +181,6 @@ header div {
   opacity: 0.9;
 }
 
-.main-program-header {
-  margin-bottom: 5%;
-}
-
 .program-item {
   opacity: 0.7;
   margin: 2% 0;
@@ -198,7 +206,7 @@ header div {
 
 /* Featured Speakers */
 .featured-speakers-header {
-  margin: 10% 0;
+  margin-top: 10%;
 }
 
 .speaker-image {
@@ -240,12 +248,13 @@ header div {
 
 /* Past Activities */
 .past-activities {
-  margin: 10% 0;
+  margin: 5% 0;
+  margin-top: 10%;
 }
 
 .past-content {
   width: 80%;
-  margin: 5% 0;
+  margin-top: 5%;
   font-size: 1.1rem;
 }
 
@@ -280,14 +289,37 @@ header div {
   margin: 5% 0;
 }
 
+.act:hover {
+  opacity: 0.7;
+}
+
+/* About Us */
+.about-us {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+.family-photo {
+  width: 100%;
+  margin: 5%;
+}
+
+.about-us-content {
+  margin: 0 5%;
+  padding: 3%;
+}
+
 /* Partners */
 .partners {
   width: 100%;
   opacity: 0.9;
+  margin: 5% 0;
 }
 
 .partners-heading {
-  margin: 10% 0;
+  margin-top: 10%;
 }
 
 .partners-list {
@@ -296,6 +328,10 @@ header div {
 
 .list-item-container {
   margin: 10% 5%;
+}
+
+.list-item-container:hover {
+  opacity: 0.7;
 }
 
 .list-item-container::marker {
@@ -310,10 +346,11 @@ header div {
 /* Footer */
 .footer {
   width: 100%;
+  margin: 5% 0;
 }
 
 .contact {
-  margin: 10% 0;
+  margin-top: 5%;
 }
 
 .ytu-logo {

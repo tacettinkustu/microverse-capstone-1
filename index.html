@@ -16,6 +16,11 @@
       rel="stylesheet"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -50,7 +55,6 @@
             <a href="#">News</a>
           </div>
         </div>
-        <h2 class="dark-orange text-center">"Hello! Sharing world"</h2>
       </nav>
       <div class="container">
         <img
@@ -63,10 +67,14 @@
           alt="Background image"
           class="bg-header-image-rotate"
         />
-        <div>
-          <h1 class="dark-orange text-center">
-            YTU ENTREPRENEURSHIP and TECHNOLOGY CONFERENCE
-          </h1>
+        <div class="main-content">
+          <div class="main-content-headers">
+            <h2 class="dark-orange">"Hello! Sharing world"</h2>
+            <h1 class="dark-orange">
+              YTU ENTREPRENEURSHIP and TECHNOLOGY CONFERENCE
+            </h1>
+            <h3 class="year dark-orange heading-big">2021</h3>
+          </div>
           <div class="header-content text-center">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
@@ -80,7 +88,7 @@
               2021.06.28(MON) ~ 30(WED)
             </h3>
             <p class="location light-black heading-small">
-              @Library of Yildiz Technical University, Istanbul, Turkey
+              @Hall of Yildiz Technical University, Istanbul, Turkey
             </p>
           </div>
         </div>
@@ -90,6 +98,7 @@
       <h2 class="main-program-header light-grey heading-medium">
         Main Program
       </h2>
+      <hr class="horizontal-line text-center" />
       <article class="program-item flex-row-center bg-light-black">
         <div class="item item-icon heading-big">
           <i class="fas fa-book-reader light-grey"></i>
@@ -148,6 +157,7 @@
       <h2 class="featured-speakers-header light-black heading-medium">
         Featured Speakers
       </h2>
+      <hr class="horizontal-line text-center" />
       <div class="speakers-list"></div>
       <button
         type="button"
@@ -157,30 +167,63 @@
       >
         MORE <i class="fas fa-angle-down down-arrow"></i>
       </button>
+      <hr class="full-horizontal-line" />
     </section>
     <section class="past-activities flex-column-center">
       <h2 class="past-heading light-black heading-medium">
         See the past Club Activities
       </h2>
+      <hr class="horizontal-line text-center" />
       <p class="past-content light-black text-center">
         Take a look at the last two years activities which took place in
         Istanbul
       </p>
-      <div class="past-first-activity">
+      <div class="past-first-activity act">
         <div class="first-activity-content flex-column-center">
           <h3>2020</h3>
           <p>YTU Technology Summit 2020 in Istanbul</p>
         </div>
       </div>
-      <div class="past-second-activity">
+      <div class="past-second-activity act">
         <div class="first-activity-content flex-column-center">
           <h3>2019</h3>
           <p>YTU Technology Summit 2019 in Istanbul</p>
         </div>
       </div>
+      <hr class="full-horizontal-line" />
+    </section>
+    <section class="about-us flex-column-center text-center">
+      <h2 class="about-us-head light-black heading-medium">About Us</h2>
+      <hr class="horizontal-line text-center" />
+      <img
+        src="https://securityconference.org/assets/media/e/5/csm_themen_cyber-security-and-technology_header_compr_2037a5dc78.jpg"
+        alt="about us community photo"
+        class="family-photo"
+      />
+      <div class="about-us-content">
+        <p class="about-us-paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id mollitia
+          magni enim ducimus repudiandae assumenda fugit dolorum doloribus
+          ratione dolor cum, fugiat consequatur quisquam quos deserunt amet illo
+          recusandae distinctio incidunt tenetur veritatis facilis excepturi
+          eum. Consectetur repellendus sunt, dolorum exercitationem maiores
+          optio architecto voluptates deserunt quia nemo quod magni.
+        </p>
+        <h4>
+          <br />
+          What do we promise to entrepreneurs and technology enthusiasts?
+        </h4>
+        <p>
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa
+          ipsam explicabo eveniet iure reiciendis accusamus libero expedita ea
+          suscipit?
+        </p>
+      </div>
     </section>
     <section class="partners bg-light-black flex-column-center">
       <h2 class="partners-heading light-grey heading-medium">Partners</h2>
+      <hr class="horizontal-line text-center" />
       <ul class="partners-list flex-row-center">
         <li class="list-item-container mozilla">
           <img
@@ -221,6 +264,7 @@
     </section>
     <footer class="footer flex-column-center">
       <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="horizontal-line text-center" />
       <div class="flex-row-center contact-details">
         <img
           src="./utils/images/ytu-logo-eng.jpg"
