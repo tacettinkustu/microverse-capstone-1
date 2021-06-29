@@ -5,36 +5,38 @@
 }
 
 @font-face {
+  /* Cocogoose Bold */
+  font-family: "cocogoose";
+  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
+}
+
+@font-face {
   /* Cocogoose Light */
   font-family: "cocogoose-light";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Light-trial.ttf");
-
-  /* Cocogoose Regular */
-  font-family: "cocogoose-regular";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Regular-trial.ttf");
-
-  /* Cocogoose Bold */
-  font-family: "cocogoose-bold";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-Bold-trial.ttf");
-
-  /* Cocogoose Extra-Bold */
-  font-family: "cocogoose-extra-bold";
-  src: url("../utils/fonts/cocogoose/Cocogoose-Classic-ExtraBold-trial.ttf");
+  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
 }
 
 .heading-small {
   font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .heading-medium {
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .heading-big {
   font-size: 1.75rem;
+  font-weight: 900;
 }
 
 /* Text Colors */
+.special-color {
+  background: -webkit-linear-gradient(rgb(224, 41, 41), rgb(90, 39, 39));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .light-black {
   color: #272a31;
@@ -59,13 +61,13 @@
 }
 
 .bg-light-grey {
-  background: #d3d3d3;
+  background: rgba(250, 247, 247, 0.829);
 }
 
 /* Container */
-
 .container {
-  max-width: 1400px;
+  width: 100%;
+  padding: 5%;
 }
 
 /* Layouts */
@@ -83,6 +85,53 @@
   align-items: center;
 }
 
-/* Buttons, primary, hover */
+/* Buttons */
+.btn {
+  width: 300px;
+  height: 60px;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
 
-/* Forms */
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+.full-horizontal-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}
+
+/* Margins */
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-top-big {
+  margin-top: 10%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0;
+}
