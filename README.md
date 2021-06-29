@@ -37,7 +37,7 @@ To get a local copy up and running usual steps.
 
 ## UI Designer
 
--Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07). But, I personalized for my purposes.
 
 Feel free to check the [issues page](../../issues/).
 
