@@ -20,6 +20,10 @@ Javascript
 
 [Live Demo Link](https://tacettinkustu.github.io/microverse-capstone-1/)
 
+## Presentation of Project
+
+[Loom Video Link](https://www.loom.com/share/a191174d83aa4fceb67c36b660a692ba)
+
 ## Project Description
 
 The project you are going to build is based on an *online website for a conference*. We provide some design guidelines for you to create the website. It's very important the you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.
