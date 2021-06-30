@@ -133,7 +133,12 @@ nav h2 {
 }
 
 .main-content-headers h2 {
+  width: 100%;
   margin: 3% 0;
+}
+
+.main-content-headers h1 {
+  width: 100%;
 }
 
 .container h1 {
@@ -143,6 +148,7 @@ nav h2 {
 }
 
 .year {
+  width: 100%;
   font-family: "Work Sans", sans-serif;
   font-weight: 900;
   font-size: 2.1rem;
