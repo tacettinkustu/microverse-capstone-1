@@ -33,7 +33,10 @@
 
 /* Text Colors */
 .special-color {
-  background: -webkit-linear-gradient(rgb(224, 41, 41), rgb(90, 39, 39));
+  background: url("https://wallpaperaccess.com/full/1818031.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
