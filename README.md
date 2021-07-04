@@ -11,9 +11,9 @@ It is built as a part of Microverse Web Developer Course. The mobile-first appro
 
 ## Built With
 
-HTML
-CSS
-Javascript
+-HTML
+-CSS
+-Javascript
 
 
 ## Live Demo
